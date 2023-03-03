@@ -1,26 +1,25 @@
-.mainHeader{
+.mainHeader {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
-.headercontent{
+
+.headercontent {
     display: block;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .video {
     position: absolute;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
     z-index: -1;
-} 
-.header{
-    height: 20vh;
-    width: 100vw;
 }
+
 .headerdiv {
     display: flex;
     width: 100%;
@@ -29,11 +28,13 @@
     position: relative;
     top: 20%;
 }
-.leftheader{
+
+.leftheader {
     width: 15%;
     height: 15%;
 }
-.rightheader ul{
+
+.rightheader ul {
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -43,11 +44,13 @@
     text-decoration: none;
     z-index: 2;
 }
-.menulink{
+
+.menulink {
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
+
 .item {
     display: block;
     margin-right: 1.5rem;
@@ -58,14 +61,16 @@
     margin-left: 45px;
     color: rgb(211, 30, 30);
 }
-.title{
+
+.title {
     color: whitesmoke;
     font-size: 100px;
     margin-left: 320px;
     margin-bottom: 300px;
     padding: 0px 0 5px 10%;
 }
-.data{
+
+.data {
     align-items: flex-end;
     display: flex;
     justify-content: space-between;
@@ -74,226 +79,39 @@
     position: absolute;
     z-index: 4;
 }
-.scroll{
-    color: hsla(0,0%,100%,.65);
-    display: block;
-    font-size: 1.5rem;
-    margin-bottom: -280px
-}
-.maincontent{
+
+.maincontent {
     height: 130vh;
     display: flex;
     padding: 8vw 10vw;
 }
-.leftcontent{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    padding-right: 5vw;
-    justify-content: space-between;
-    
-}
 
-.wellcometext {
-    color: #000000;
-    margin: 0rem 0rem;
-    padding: 0rem 0rem;
-    padding-top: 1rem;
-    font-size: 4rem;
-    font-weight: lighter;
-    line-height: 1.1;
-    transform: translate(0rem, 0.2rem);
-}
-
-.worldtext {
-    margin: 0rem 1rem;
-    padding: 0rem 3rem;
-    font-size: 3rem;
-    font-weight: lighter;
-    line-height: 1.1;
-}
-.first-content-text {
-    color: #777;
-    font-size:1rem;
-    padding:0rem;
-    margin-top: 1rem;
-    line-height: 2;
-    }
-.left-side-image{
-    height: 100%;
-    width: 90%;
-    margin-top: 0rem;
-}
-.right-side-image{
-    height: 880px;
-    width: 600px;
-    padding-right: 1rem;
-    padding-top: 3rem;
-}
-.seconddata{
-    background-image: linear-gradient(white, #f3f3f3);
-    display: flex;
-    flex-direction: column;
-}
-
-.seconddataheader{
-    padding: 0 10vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.seconddataheader-left > h1{
+.seconddataheader-left>h1 {
     font-size: 50px;
     margin-bottom: -25px;
     font-weight: normal;
-    margin-top:100px;  
+    margin-top: 100px;
 }
 
-.seconddataheader-left > h2{
+.seconddataheader-left>h2 {
     font-size: 60px;
-    font-weight:50;
+    font-weight: 50;
     font-family: sans-serif;
     margin-bottom: 50px;
     margin-top: 20px;
 
 }
+
 .seconddata-body {
     height: 65vh;
     position: relative;
 }
-.images{
-    position:absolute; 
-    display: flex;
-}
 
-.photos > article >img{
-    height:35em;
-    width:35em;
-    padding: 0 10px;
-}
-.image-text{
+.images {
     position: absolute;
-    bottom: 0;
-    padding: 0 0 2vw 4vw;
-}
-
-.image-text > h3{
-    margin-bottom: 1rem;
-    white-space: normal;
-    color: #fff;
-    font-size: 2rem;
-    font-family: gt-sectra;
-    font-weight: 200;
-    text-transform: capitalize;
-}
-
-.image-text > p{
-    font-family: messina-sans;
-    color: hsla(0,0%,100%,.75);
-    line-height: 1.5;
-    white-space: normal;
-    font-size: 1rem;
-    text-transform:capitalize;
-}
-.third-content {
-    margin-top: 250px;
-    height: 90vw;
-    display: flex;
-    flex-direction: column;
-    background-color: #f3f3f3;
-}
-
-.third-content-header {
-    display: flex;
-    flex-direction: column;
-    padding: 10vh 10vw;
-    height: 25%;
-}
-
-.third-content-header > h1{
-    font-size: calc(20px + 2.5vw);
-    margin-bottom: -20px;
-    font-weight: normal;
-    margin-top: 0; 
-}
-
-.third-content-header > h2{
-    font-size: calc(15px + 2.5vw);
-    margin-top: -5px;
-    font-weight: lighter;
-    font-family: sans-serif;
-    margin-bottom: 30px;
-    margin-top: 8px;
-}
-
-.third-content-header > p {
-    margin: 5px;
-    color: #777777;
-    display: block;
-    text-align: start;
-    opacity: 1;
-    font-size: 20px;
-}
-
-.third-content-body{
-    height: 84%;
-}
-.third-content-body-first-image{
-    width: 77.3%;
-    object-fit: fill;
-    position: absolute;
-}
-
-.third-content-body-div{
-    background-color: #161f1e;
-    position: absolute;
-    height: 35vw;
-    width: 50vw;
-    z-index: 1;
-    right: 0;
-    margin-top: 4vw;
     display: flex;
 }
-
-.third-content-body-div-right{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.third-content-body-div-left{
-    width: 50%;
-    margin-left: 385px;
-}
-
-.third-content-body-div-left > img{
-    width: 100%;
-    height: 100%;
-}
-.map-link{
-    margin-top: 10px;
-    text-align: center;
-    display: flex;
-    margin: 3vh 5vw ;
-}
-
-.map-dropdown{
-    list-style-type:none;
-    font-size: 20px;
-    min-width: 10px;
-    color:black;
-    margin-left:90px;
-    font-family: Cambria;
-}
-
-.arrow{
-    height :8%;
-    margin: 3vw 5vw; 
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.footer{
+.footer {
     margin-top: 100px;
     background-color: #161f1e;
     display: flex;
@@ -304,39 +122,29 @@
 .footer-bottom {
     margin-bottom: 30px;
     margin-left: 40px;
-    color:white;
+    color: white;
 }
 
-.footer-top{
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-data > span {
+.footer-data>span {
     padding-bottom: 15px;
 }
 
-.footer-data{
+.footer-data {
     display: flex;
     flex-wrap: wrap;
     color: whitesmoke;
 }
 
-.footer-content{
+.footer-content {
     margin-left: 90px;
 }
-.footer-left{
-    display: block;
-    height: calc(1.7rem + 1.4px);
-    height: calc(var(--logo-sticky)*1.2);
-    width: auto;
-}
-.footerLogo{
+.footerLogo {
     width: 20%;
     margin: -41px;
     padding-left: 74px;
 }
-
-
-
-
